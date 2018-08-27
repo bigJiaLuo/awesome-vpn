@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312" />
+<meta name="applicable-device" content="pc">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<title>批处理隐藏自身窗口，很无聊_DOS/BAT_脚本之家</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="keywords" content="批处理,隐藏" />
+<meta name="description" content="批处理隐藏运行效果代码,防止出现黑窗口不建议非法用途，可以用来执行命令，提供用户体验。" />
+<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.jb51.net/article/14352.htm" />
+<meta http-equiv="mobile-agent" content="format=html5; url=https://m.jb51.net/article/14352.htm" />
+<meta http-equiv="mobile-agent" content="format=xhtml; url=https://m.jb51.net/article/14352.htm" />
+<script type="text/javascript">
+var tougao="mdxy-dxy",lmname="DOS/BAT",suoyin="no";
+(function(){var reWriteUrl=function(url){if(url){var Splits=url.split("/"),siteName=window.location.pathname;if(typeof siteName!=="undefined"){return "https://m.jb51.net"+siteName}}};if(/Android|webOS|iPhone|iPad|Windows Phone|iPod|BlackBerry|SymbianOS|Nokia|Mobile/i.test(navigator.userAgent)){var url=window.location.href;var pathname=window.location.pathname;if(url.indexOf("?pc")<0){try{window.location.href=reWriteUrl(url)}catch(e){}}}})();
+</script>
+<meta name="referrer" content="always">
+<link type="text/css" href="/skin/2018/css/base.css" rel="stylesheet" />
+<link type="text/css" href="/skin/2018/css/common.css" rel="stylesheet" />
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='/skin/js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+<script type=text/javascript src="/js/function.js"></script> 
+</head>
+<body>
+<!--topTools Start -->
+<div class="topTools">
+    <div class="wrap clear_fix">
+		<div class="topToolsLeft">
+			<a href="/" target="_blank">脚本之家</a>
+			<a href="http://s.jb51.net" target="_blank" rel="nofollow">服务器常用软件</a>
+		</div>
+		<div class="right">
+			<ul>
+				<li><i class="sprite md left"></i><a target="_blank" href="https://m.jb51.net/" rel="nofollow">手机版</a></li>
+				<li><i class="sprite tg left"></i><a href="http://tougao.jb51.net" rel="nofollow" target="_blank">投稿中心</a></li>
+				<li id="wxHide"><i class="sprite wx left"></i><a href="javascript:void(0)" target="_blank">关注微信</a>
+					<div id="wxShow" class="wxHide_box"><img src="//files.jb51.net/skin/2018/images/erwm.jpg" alt="扫一扫" width="84" hight="84" data-baiduimageplus-ignore></div>
+				</li>
+			</ul>
+			<!--快捷导航 开始 -->
+			<div class="text_d right" id="navHide">
+        <a rel="nofollow" href="javascript:void(0);">快捷导航 <i id="icon" class="sprite arrowRight"></i></a>
+        <div id="navBox" class="nwebNav" style="display: none;">
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4>
+                                        <a rel="nofollow" href="/softs/" target="_blank">软件下载</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/softs/android.html" target="_blank">android</a>
+                                        <a rel="nofollow" href="/softs/mac.html" target="_blank">MAC</a>
+                                        <a rel="nofollow" href="/qudong/" target="_blank">驱动下载</a>
+                                        <a rel="nofollow" href="/fonts/" target="_blank">字体下载</a>
+                                        <a rel="nofollow" href="/dll/" target="_blank">DLL</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4>
+                                        <a rel="nofollow" href="/codes/" target="_blank">源码下载</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/codes/php.html" target="_blank">PHP</a>
+                                        <a rel="nofollow" href="/codes/aspnet.html" target="_blank">ASP.NET</a>
+                                        <a rel="nofollow" href="/codes/asp.html" target="_blank">ASP</a>
+                                        <a rel="nofollow" href="/codes/jsp.html" target="_blank">JSP</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="/list/index_84.htm" target="_blank">软件编程</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/list/list_85_1.htm" target="_blank">C#</a>
+                                        <a rel="nofollow" href="/list/list_134_1.htm" target="_blank">JAVA</a>
+                                        <a rel="nofollow" href="/list/list_159_1.htm" target="_blank">C 语言</a>
+                                        <a rel="nofollow" href="/list/list_206_1.htm" target="_blank">Delphi</a>
+                                        <a rel="nofollow" href="/list/list_233_1.htm" target="_blank">Android</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="/list/index_1.htm" target="_blank">网络编程</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/list/list_15_1.htm" target="_blank">PHP</a>
+                                        <a rel="nofollow" href="/list/list_21_1.htm" target="_blank">ASP.NET</a>
+                                        <a rel="nofollow" href="/list/list_2_1.htm" target="_blank">ASP</a>
+                                        <a rel="nofollow" href="/list/list_3_1.htm" target="_blank">JavaScript</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="http://tools.jb51.net/" target="_blank">在线工具</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/tools/cssyasuo.shtml" target="_blank">CSS格式化</a>
+                                        <a rel="nofollow" href="http://tools.jb51.net/tools/js_geshihua.asp" target="_blank">JS格式化</a>
+                                        <a rel="nofollow" href="/tools/html-js.htm" target="_blank" rel="nofollow">Html转化为Js</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="/list/index_104.htm" target="_blank">数据库</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/list/list_112_1.htm" target="_blank">MYSQL</a>
+                                        <a rel="nofollow" href="/list/list_113_1.htm" target="_blank">MSSQL</a>
+                                        <a rel="nofollow" href="/list/list_154_1.htm" target="_blank">oracle</a>
+                                        <a rel="nofollow" href="/list/list_155_1.htm" target="_blank">DB2</a>
+                                        <a rel="nofollow" href="/list/list_252_1.htm" target="_blank">MARIADB</a></dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="/cms/" target="_blank">CMS</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/cms/list411_1.html" target="_blank">PHPCMS</a>
+                                        <a rel="nofollow" href="/cms/list408_1.html" target="_blank">DEDECMS</a>
+                                        <a rel="nofollow" href="/cms/list578_1.html" target="_blank">帝国CMS</a>
+                                        <a rel="nofollow" href="/cms/list419_1.html" target="_blank">WordPress</a>
+                                </dd>
+                        </dl>
+                </div>
+                <div class="ndealList clear_fix">
+                        <div class="navTitle left">
+                                <h4><a rel="nofollow" href="javascript:0;" target="_blank">常用工具</a></h4>
+                        </div>
+                        <dl class="right">
+                                <dd>
+                                        <a rel="nofollow" href="/zt/phphuanjing.html" target="_blank">PHP开发工具</a>
+                                        <a rel="nofollow" href="/zt/python.html" target="_blank">python</a>
+                                        <a rel="nofollow" href="/zt/photoshopxz.html" target="_blank">Photoshop</a>
+                                        <a rel="nofollow" href="/bibei/win/index.html" target="_blank">必备软件</a></dd>
+                        </dl>
+                </div>
+        </div>
+</div>
+			<!--快捷导航 结束 -->
+		</div>
+    </div>
+</div>
+<!--topTools end -->
+
+<div class="header">
+	<!-- Logo start -->
+	<div class="wrap">
+		<div class="mtb10 clearfix">
+		  <div class="logo"><a href="//www.jb51.net/"><img src="//www.jb51.net/images/logo.gif" title="脚本之家" alt="脚本之家" /></a></div>
+		  <div class="logom fl"><span id="logo_m" class="jbTestPos"></span></div>
+		  <div class="logor fr"><span id="logo_r" class="jbTestPos"></span></div>
+		</div>
+	</div>
+	<!--Logo end -->
+	
+	<!-- 导航开始 -->
+	<div class="nav_top clearfix">
+		<ul>
+			<li><a href="/">网站首页</a></li>
+			<li><a href="/web/">网页制作</a></li>
+			<li><a href="/list/index_1.htm">网络编程</a></li>
+			<li><a href="/list/index_96.htm">脚本专栏</a></li>
+			<li><a href="/jiaoben/">脚本下载</a></li>
+			<li><a href="/list/index_104.htm">数据库</a></li>
+			<li><a href="/list/list_82_1.htm">服务器</a></li>
+			<li><a href="/books/">电子书籍</a></li>
+			<li><a href="/os/">操作系统</a></li>
+			<li><a href="/yunying/">网站运营</a></li>
+			<li><p><i>其它</i><span>
+				<a href="/pingmian/">平面设计</a>
+				<a href="/media/">媒体动画</a>
+				<a href="/diannaojichu/">电脑基础</a>
+				<a href="/hardware/">硬件教程</a>
+				<a href="/hack/">网络安全</a>	
+			</span></p></li>
+		</ul>
+	</div>
+	<!--导航结束-->
+</div>
+
+<!-- 二级菜单开始 -->
+<div class="wrap">
+	<div class="subnav clearfix">
+<ul><li><a href='/list/list_114_1.htm' title="vbs">vbs</a></li>
+<li><a href='/list/list_106_1.htm' title="DOS/BAT">DOS/BAT</a></li>
+<li><a href='/list/list_110_1.htm' title="hta">hta</a></li>
+<li><a href='/list/list_111_1.htm' title="htc">htc</a></li>
+<li><a href='/list/list_97_1.htm' title="python">python</a></li>
+<li><a href='/list/list_125_1.htm' title="perl">perl</a></li>
+<li><a href='/list/list_138_1.htm' title="游戏相关">游戏相关</a></li>
+<li><a href='/list/list_161_1.htm' title="VBA">VBA</a></li>
+<li><a href='/list/list_163_1.htm' title="远程脚本">远程脚本</a></li>
+<li><a href='/list/list_178_1.htm' title="ColdFusion">ColdFusion</a></li>
+<li><a href='/list/list_201_1.htm' title="ruby专题">ruby专题</a></li>
+<li><a href='/list/list_213_1.htm' title="autoit">autoit</a></li>
+<li><a href='/list/list_214_1.htm' title="seraphzone">seraphzone</a></li>
+<li><a href='/list/list_234_1.htm' title="PowerShell">PowerShell</a></li>
+<li><a href='/list/list_235_1.htm' title="linux shell">linux shell</a></li>
+<li><a href='/list/list_245_1.htm' title="Lua">Lua</a></li>
+<li><a href='/list/list_246_1.htm' title="Golang">Golang</a></li>
+<li><a href='/list/list_249_1.htm' title="Erlang">Erlang</a></li>
+<li><a href='/list/list_130_1.htm' title="其它">其它</a></li>
+</ul>
+	</div>
+</div>
+<!-- 二级菜单结束 -->	
+
+<div class="main mb10 clearfix">
+	<div class="clearfix"><span id="tonglan1" class="jbTestPos"></span></div>
+</div>
+<div class="main clearfix">
+	<div class="NavBar clearfix ptb10">
+		<div class="fl w690">
+			<div class="box mb15 mt10"><i class="icon"></i>您的位置：<a href='/'>首页</a> → <a href="/list/index_96.htm" title="脚本专栏">脚本专栏</a> → <a href="/list/list_106_1.htm" title="DOS/BAT">DOS/BAT</a> → 正文内容 批处理隐藏</div>
+		</div>
+		<div class="fr w300"><div class="search">
+		<form action="/do/search.php" target="_blank">
+			<input type="hidden" name="s" value="10520733385329581432">
+			<input type="hidden" name="ie" value="gbk">
+			<input type="text" name="q" class="key_input" placeholder="请输入关键词">
+			<input type="submit" value=" " class="c_btn">
+		</form></div>
+		</div>
+	</div>
+</div>
+<!--content Star -->
+<div id="contents">
+ <!--share start-->
+ <div id="right-share">
+	<div class="right-share jb-share" id="jb-share">
+		<a class="rshare-weixin" title="">微信</a>
+        <a rel="nofollow" class="rshare-qzone" target="_blank" href="//tougao.jb51.net/" title="投稿">投稿</a>
+		<a rel="nofollow" class="rshare-sqq" target="_blank" href="http://shequ.jb51.net/" title="交流社区">交流社区</a>
+		<a rel="nofollow" class="rshare-tsina" target="_blank" href="http://tools.jb51.net/" title="在线工具">在线工具</a>
+	</div>
+	<a class="rshare-top" onClick="javascript:;"></a>
+			
+	<div id="weixin-code" class="hide">
+	<div class="popup_weixin_head"><p>关注微信公众号</p> 
+	<div id="code"><img src="//files.jb51.net/skin/2018/images/erwm.jpg" alt="扫一扫" width="100" hight="100"></div>
+	</div>
+	</div>	
+ </div>
+<!--share end-->
+
+ <div class="main clearfix bgf">
+      <div class="w750 fl">
+      <div class="article-content border">
+      <div class="title">
+            <h1 class="YaHei">批处理隐藏自身窗口，很无聊</h1>
+            <p> &nbsp;更新时间：2008年05月05日 23:17:16 &nbsp; 作者：  &nbsp; <a href="#comments"> <img src="/skin/2018/images/text-message.png" width="15" height="15" /> 我要评论</a> </p>
+        </div>
+        <div class="lbd clearfix"><span id="tit_down" class="jbTestPos"></span></div>
+        <div class="art_desc mt10"><div id="art_demo">批处理隐藏运行效果代码,防止出现黑窗口不建议非法用途，可以用来执行命令，提供用户体验。</div></div>
+        <div class="lbd clearfix"><span id="art_up" class="jbTestPos"></span></div>
+        <div id="content">
+            <P><div class="codetitle"><span><a style="CURSOR: pointer" data="55067" class="copybut" id="copybut55067" onclick="doCopy('code55067')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code55067"><BR>@echo oFF <BR>::code by LZ-MyST QQ:8450919 BLOG:http://hi.baidu.com/lzmyst http://www.clxp.net.cn <BR>if "%1" neq "1" ( <BR>&gt;"%temp%\tmp.vbs" echo set WshShell = WScript.CreateObject^(^"WScript.Shell^"^) <BR>&gt;&gt;"%temp%\tmp.vbs" echo WshShell.Run chr^(34^) ^& %0 ^& chr^(34^) ^& ^" 1^",0 <BR>start /d "%temp%" tmp.vbs <BR>exit <br><br>) <BR>::从这里开始，就是你的批处理代码了，DOS黑框一闪而过，转到后台运行了 <BR>pause <BR>::你会在任务管理器看到有一个隐藏窗口的CMD进程 <BR></div><BR><STRONG>运行bat时隐藏cmd窗口的方法</STRONG> <br><br>运行bat时隐藏cmd窗口的方法 可以编辑一个vbs脚本，在其中以隐藏窗口运行批处理程序。 <BR><div class="codetitle"><span><a style="CURSOR: pointer" data="46781" class="copybut" id="copybut46781" onclick="doCopy('code46781')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code46781"> <BR>Set ws = CreateObject("Wscript.Shell") <BR>ws.run "cmd /c 批处理程序名",vbhide <BR></div> <BR>将上面代码拷贝到记事本中，保存为"runbat.vbs"或者其它的名字（扩展名必须是.vbs），然后点击运行生成的脚本runbat.vbs，即可隐藏运行指定的批处理程序。 <BR>这个vbs脚本也可以在bat环境中直接调用，达到隐藏bat自身的目的。 <BR>自己总结一下,做几个例子，有兴趣的去试验一下啊! <BR><div class="codetitle"><span><a style="CURSOR: pointer" data="24754" class="copybut" id="copybut24754" onclick="doCopy('code24754')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code24754"> <BR>Set ws = CreateObject("Wscript.Shell") <BR>wscript.sleep 1200 ws.run "cmd /c start winrar.exe",vbhide <BR>wscript.sleep 2200 ws.run "cmd /c start msimn.exe",vbhide <BR>wscript.sleep 1200 ws.run "cmd /c start iexplore.exe",vbhide <BR></div><br><br><STRONG>下面来几个高手整理的</STRONG></P>
+<P>几种隐藏批处理运行窗口的方法 .<BR>（1）通过批处理命令实现。缺点：会看到一个窗口一闪而逝。优点：简单，直接添加即可。</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="64275" class="copybut" id="copybut64275" onclick="doCopy('code64275')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code64275"><BR>@echo off <BR>if "%1"=="h" goto begin <BR>start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit <BR>:begin<BR>::以下为正常批处理命令，不可含有pause set/p等交互命令<BR>pause<BR></div></P>
+<P>（2）利用vbs脚本实现隐藏。缺点：调用麻烦点。优点：基本看不到痕迹（非绝对的，指一般用户）</P>
+<P>HideRun.vbs</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="45712" class="copybut" id="copybut45712" onclick="doCopy('code45712')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code45712"><BR>CreateObject("WScript.Shell").Run "cmd /c D:/test.bat",0<BR></div></P>
+<P>其中D:/test.bat是你的批处理路径<BR>.....................................................................................................................................<BR>另一思路为把bat转换成vbs，然后vbs生成一个临时bat文件，然后WScript.Shell.Run隐藏启动这个临时bat。<BR>HideRun.bat</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="27959" class="copybut" id="copybut27959" onclick="doCopy('code27959')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code27959"><BR>echo CreateObject("WScript.Shell").Run "cmd /c D:/test.bat",0&gt;$tmp.vbs<BR>cscript.exe /e:vbscript $tmp.vbs<BR>del $tmp.vbs<BR></div></P>
+<P>这个批处理其实不能使其批处理本身隐藏，但是下面大部分隐藏调用批处理的原理和基础。<BR>HideRun.js</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="54662" class="copybut" id="copybut54662" onclick="doCopy('code54662')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code54662"><BR>new ActiveXObject('WScript.Shell').Run('cmd /c D:/Test.bat',0);<BR></div></P>
+<P>用Javascript有什么好处呢？js的字符串变量可以用单引号，从而方便命令行作为参数调用，而且js很好的支持多行语句用 ; 分隔写成一行。要注意的是：js要区分大小写，方法<BR>必须用括号，结尾必须有分号。所以就成了下面的命令：</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="74552" class="copybut" id="copybut74552" onclick="doCopy('code74552')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code74552"><BR>mshta "javascript:new ActiveXObject('WScript.Shell').Run('cmd /c D:/test.bat',0);window.close()"<BR>&nbsp;</div></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通常系统管理员会向用户端推送一些脚本并运行，或者拷贝批处理文件到客户端由用户自己运行。但是大部分脚本在运行时会弹出黑色背景的DOS窗口，这会让不少用户不知所<BR>措，甚至误操作关闭正在运行的窗口。好在批处理文件的DOS窗口是可以隐藏的，以下是几种隐藏批处理运行窗口的方法。<BR>1.基础<BR>HideRun.vbs<BR>CreateObject("WScript.Shell").Run "cmd /c D:/test.bat",0<BR>其中D:/test.bat是你的批处理路径<BR>另一思路为把bat转换成vbs，然后vbs生成一个临时bat文件，然后WScript.Shell.Run隐藏启动这个临时bat。<BR>HideRun.bat</P>
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="27959" class="copybut" id="copybut27959" onclick="doCopy('code27959')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code27959"><BR>echo CreateObject("WScript.Shell").Run "cmd /c D:/test.bat",0&gt;$tmp.vbs<BR>cscript.exe /e:vbscript $tmp.vbs<BR>del $tmp.vbs<BR></div></P>
+<P>这个批处理其实不能使其批处理本身隐藏，但是下面大部分隐藏调用批处理的原理和基础。<BR>HideRun.js<BR>new ActiveXObject('WScript.Shell').Run('cmd /c D:/Test.bat',0);<BR>用Javascript有什么好处呢？js的字符串变量可以用单引号，从而方便命令行作为参数调用，而且js很好的支持多行语句用 ; 分隔写成一行。要注意的是：js要区分大小写，方法<BR>必须用括号，结尾必须有分号。所以就成了下面的命令：<BR>mshta "javascript:new ActiveXObject('WScript.Shell').Run('cmd /c D:/test.bat',0);window.close()"<BR>2.用快捷方式<BR>如果要使一个批处理本身隐藏，可以参考附件里的一个快捷方式，修改附件中的相关路径即可隐藏启动你的批处理。可以用vbs来建立一个 .lnk，其实用批处理也行（先echo一个<BR>vbs出来）<BR>3.利用系统服务<BR>可以建立一个系统服务然后启动这个服务来启动批处理。缺点是启动服务较慢，需要管理员权限<BR>runassrv add /cmdline:"C:/Windows/System32/cmd.exe /c D:/test.bat" /name:"mysrv"<BR>net start mysrv<BR>4.利用at计划任务<BR>用at可以建立一个计划任务，在不输入 /interactive 参数可以后台运行。但是建使用at必须有管理员权限<BR>at 09:10 "cmd /c D:/Test.bat"<BR>然后在 9:10 系统就会自动后台以SYSTEM权限运行这个bat</P>
+<P>5.利用ftype文件关联<BR>ftype batfile=C:/Windows/System32/mshta "javascript:new ActiveXObject('WScript.Shell').Run('cmd /c%1',0);window.close();"<BR>6.其他用户<BR>Windows 2k/XP支持多用户，如果能在后台登陆另一个账户的桌面然后运行一个批处理，就能完全达到隐藏的目的<BR>7.编译成可执行文件<BR>不少方法可以实现，可以直接利用的工具有 Quick Batch file compiler。</P>
+            
+            <div class="art_xg">
+<h4>您可能感兴趣的文章:</h4><ul><li><a href="/article/21296.htm" title="利用WScript.Shell对象隐藏cmd命令行运行框的实现代码" target="_blank">利用WScript.Shell对象隐藏cmd命令行运行框的实现代码</a></li><li><a href="/article/29235.htm" title="运行bat时隐藏cmd窗口的方法(bat隐藏窗口 隐藏运行bat文件)" target="_blank">运行bat时隐藏cmd窗口的方法(bat隐藏窗口 隐藏运行bat文件)</a></li></ul>
+</div>
+<div class="clearfix">
+<span id="art_bot" class="jbTestPos"></span>
+</div>
+        </div><!--endmain-->
+<div class="tags clearfix">
+	<i class="icon-tag"></i>
+	<ul class="meta-tags items">
+	  <li class="tag item"><a href="http://common.jb51.net/tag/%E6%89%B9%E5%A4%84%E7%90%86/1.htm" target="_blank" title="搜索关于批处理的文章" rel="nofollow">批处理</a></li>
+<li class="tag item"><a href="http://common.jb51.net/tag/%E9%9A%90%E8%97%8F/1.htm" target="_blank" title="搜索关于隐藏的文章" rel="nofollow">隐藏</a></li>
+
+	</ul>
+</div>        
+
+<div class="lbd clearfix">
+<span id="art_down" class="jbTestPos"></span>
+</div>
+<div id="shoucang"></div>
+
+<div class="xgcomm clearfix">
+	<h2>相关文章</h2>
+	<ul><li class="lbd clearfix"><span id="art_xg" class="jbTestPos"></span></li><li><div class="item-inner"><a href="/article/29507.htm" title="百度贴吧上传图片方式附件利器" class="img-wrap" target="_blank"> <img alt="百度贴吧上传图片方式附件利器" src="//files.jb51.net/images/xgimg/bcimg0.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/29507.htm" title="百度贴吧上传图片方式附件利器">百度贴吧上传图片方式附件利器</a></p><div class="item-info"><div class="js">通过这批处理将图片和文件合并成图片，通过更改扩展名切换图片和文件。这样就可以在百度贴吧上传图片式的附件。其实就是一句代码copy /b</div><span class="lbtn" style="float:right"> 2012-01-01 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/10956.htm" title="用批处理制作超大文件" class="img-wrap" target="_blank"> <img alt="用批处理制作超大文件" src="//files.jb51.net/images/xgimg/bcimg1.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/10956.htm" title="用批处理制作超大文件">用批处理制作超大文件</a></p><div class="item-info"><div class="js">用批处理制作超大文件...</div><span class="lbtn" style="float:right"> 2007-08-08 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/5684.htm" title="收藏的比较完整的批处理教程" class="img-wrap" target="_blank"> <img alt="收藏的比较完整的批处理教程" src="//files.jb51.net/images/xgimg/bcimg2.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/5684.htm" title="收藏的比较完整的批处理教程">收藏的比较完整的批处理教程</a></p><div class="item-info"><div class="js">收藏的比较完整的批处理教程...</div><span class="lbtn" style="float:right"> 2006-12-12 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/63197.htm" title="批处理命令详解之目录跳转：cd" class="img-wrap" target="_blank"> <img alt="批处理命令详解之目录跳转：cd" src="//files.jb51.net/images/xgimg/bcimg3.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/63197.htm" title="批处理命令详解之目录跳转：cd">批处理命令详解之目录跳转：cd</a></p><div class="item-info"><div class="js">本文给大家介绍的是我们在处理不同路径下文件的时候需要使用的目录跳转命令CD，非常的详细，希望大家看了本文之后可以熟练的使用这个命令。好了，下面我们就来详细介绍下吧。</div><span class="lbtn" style="float:right"> 2015-03-03 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/49586.htm" title="批处理判断是否特殊字符的实现代码" class="img-wrap" target="_blank"> <img alt="批处理判断是否特殊字符的实现代码" src="//files.jb51.net/images/xgimg/bcimg4.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/49586.htm" title="批处理判断是否特殊字符的实现代码">批处理判断是否特殊字符的实现代码</a></p><div class="item-info"><div class="js">这里为大家分享一个批处理脚本，判断是不是特殊字符，有需要的朋友可以参考下</div><span class="lbtn" style="float:right"> 2014-05-05 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/122861.htm" title="oracle、mysql数据库停止与启动的批处理文件" class="img-wrap" target="_blank"> <img alt="oracle、mysql数据库停止与启动的批处理文件" src="//files.jb51.net/images/xgimg/bcimg5.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/122861.htm" title="oracle、mysql数据库停止与启动的批处理文件">oracle、mysql数据库停止与启动的批处理文件</a></p><div class="item-info"><div class="js">每当机器启动很慢滴时,需要查询原因,并处理了,以下是针对window服务的批处理文件,需要的朋友可以参考下</div><span class="lbtn" style="float:right"> 2017-09-09 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/49986.htm" title="dos下通过wmic命令查看硬盘和内存/CPU信息(windows自带命令查看硬件信息)" class="img-wrap" target="_blank"> <img alt="dos下通过wmic命令查看硬盘和内存/CPU信息(windows自带命令查看硬件信息)" src="//files.jb51.net/images/xgimg/bcimg6.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/49986.htm" title="dos下通过wmic命令查看硬盘和内存/CPU信息(windows自带命令查看硬件信息)">dos下通过wmic命令查看硬盘和内存/CPU信息(windows自带命令查看硬</a></p><div class="item-info"><div class="js">这篇文章主要介绍了windows系统自带命令查看硬件信息，怎样dos命令查看硬盘和内存/CPU信息的方法,需要的朋友可以参考下</div><span class="lbtn" style="float:right"> 2014-05-05 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/11280.htm" title="Call 从一个批处理程序调用另一个批处理程序，并且不终止父批处理程序。" class="img-wrap" target="_blank"> <img alt="Call 从一个批处理程序调用另一个批处理程序，并且不终止父批处理程序。" src="//files.jb51.net/images/xgimg/bcimg7.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/11280.htm" title="Call 从一个批处理程序调用另一个批处理程序，并且不终止父批处理程序。">Call 从一个批处理程序调用另一个批处理程序，并且不终止父批处理</a></p><div class="item-info"><div class="js">Call 从一个批处理程序调用另一个批处理程序，并且不终止父批处理程序。...</div><span class="lbtn" style="float:right"> 2007-09-09 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/7387.htm" title="研究下DOS下联网的方法" class="img-wrap" target="_blank"> <img alt="研究下DOS下联网的方法" src="//files.jb51.net/images/xgimg/bcimg8.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/7387.htm" title="研究下DOS下联网的方法">研究下DOS下联网的方法</a></p><div class="item-info"><div class="js">研究下DOS下联网的方法...</div><span class="lbtn" style="float:right"> 2007-03-03 </span></div></div></div></div></li>
+<li><div class="item-inner"><a href="/article/31294.htm" title="Autorun 病毒清除工具bat代码" class="img-wrap" target="_blank"> <img alt="Autorun 病毒清除工具bat代码" src="//files.jb51.net/images/xgimg/bcimg9.png"> </a><div class="rbox"><div class="rbox-inner"><p><a class="link title" target="_blank" href="/article/31294.htm" title="Autorun 病毒清除工具bat代码">Autorun 病毒清除工具bat代码</a></p><div class="item-info"><div class="js">本程序运行后自动清除每个盘符下面的Autorun病毒,Echo本程序原理是基于读取每个盘符下的Autorun.inf相关字段</div><span class="lbtn" style="float:right"> 2012-09-09 </span></div></div></div></div></li>
+</ul>
+</div>
+<div class="lbd clearfix mt5">
+<span id="art_down2" class="jbTestPos"></span>
+</div>
+<a href="#comments"></a>
+<div id="comments">
+<H2>最新评论</H2>
+<div class="pd5"><div id="SOHUCS" sid="art_14352"></div></div>
+</div>
+      </div><!--endborder-->
+      </div><!--end fl-->
+      
+<div class="w350 fr">
+<div class="article-right">
+<div class="r300 clearfix"><span id="side_up" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">大家感兴趣的内容</H4>
+<UL class="newsList newList-in">
+<li><EM class="no1">1</EM><a href="/article/7131.htm" title="批处理经典入门教程！(从不懂到高手)" target="_blank">批处理经典入门教程！(从不懂到高</a></li><li><EM class="no2">2</EM><a href="/article/5828.htm" title="BAT文件语法和技巧(bat文件的编写及使用)" target="_blank">BAT文件语法和技巧(bat文件的编写</a></li><li><EM class="no3">3</EM><a href="/article/13288.htm" title="命令行实现MAC与IP地址绑定 ip mac绑定 如何绑定mac地址" target="_blank">命令行实现MAC与IP地址绑定 ip m</a></li><li><EM class="no4">4</EM><a href="/article/41322.htm" title="windows批处理命令教程" target="_blank">windows批处理命令教程</a></li><li><EM class="no5">5</EM><a href="/article/14986.htm" title="bat批处理 if 命令示例详解" target="_blank">bat批处理 if 命令示例详解</a></li><li><EM class="no6">6</EM><a href="/article/9381.htm" title="超简单超强悍的清理C盘垃圾文件方法" target="_blank">超简单超强悍的清理C盘垃圾文件方</a></li><li><EM class="no7">7</EM><a href="/article/18981.htm" title="cmd copy命令 文件复制" target="_blank">cmd copy命令 文件复制</a></li><li><EM class="no8">8</EM><a href="/article/11313.htm" title="Xcopy 复制文件和目录，包括子目录。" target="_blank">Xcopy 复制文件和目录，包括子目</a></li><li><EM class="no9">9</EM><a href="/article/49627.htm" title="BAT脚本编写教程(比较易懂和全面)" target="_blank">BAT脚本编写教程(比较易懂和全面</a></li><li><EM class="no10">10</EM><a href="/article/30545.htm" title="dos命令 cd命令使用说明[图文说明]" target="_blank">dos命令 cd命令使用说明[图文说明</a></li>
+</UL>
+</DIV>
+</DIV>
+<div class="r300 clearfix mt10"><span id="idctu" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">最近更新的内容</H4>
+<UL class="newsListA">
+<li><a href="/article/26691.htm" title="安静运行批处理的vbs脚本" target="_blank">安静运行批处理的vbs脚本</a></li><li><a href="/article/50354.htm" title="bat 截取字符串(for命令) 推荐收藏" target="_blank">bat 截取字符串(for命令) 推荐收藏</a></li><li><a href="/article/5361.htm" title="如何进行系统配置" target="_blank">如何进行系统配置</a></li><li><a href="/article/24732.htm" title="NET USER 命令详解(dos下添加用户)" target="_blank">NET USER 命令详解(dos下添加用户)</a></li><li><a href="/article/69272.htm" title="Windows使用bat批处理实现守护进程脚本分享" target="_blank">Windows使用bat批处理实现守护进程脚本分</a></li><li><a href="/article/39888.htm" title="命令行删除带.的文件夹(畸形文件夹)" target="_blank">命令行删除带.的文件夹(畸形文件夹)</a></li><li><a href="/article/1010.htm" title="超经典的DOS命令全集" target="_blank">超经典的DOS命令全集</a></li><li><a href="/article/10941.htm" title="实现WIN2003 IIS最小权限分配的批处理" target="_blank">实现WIN2003 IIS最小权限分配的批处理</a></li><li><a href="/article/6030.htm" title="Windows 2000下用DOS命令删除文件夹" target="_blank">Windows 2000下用DOS命令删除文件夹</a></li><li><a href="/article/951.htm" title="计算机指令" target="_blank">计算机指令</a></li>
+</UL>
+</DIV>
+</DIV>   
+<div class="r300 clearfix mt10"><span id="idctu1" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">常用在线小工具</H4>
+<ul class="newsListA"><span id="bctools" class="jbTestPos"></span></ul>
+</DIV>
+</DIV>
+<div class="r300 clearfix mt10 mb10"><span id="idctu2" class="jbTestPos"></span></div> 
+<div class="rFixedBox">
+<script type="text/javascript">jb51_a_d("jb51xf");</script>
+</div>
+  </div>   
+      
+      </div><!--end fr-->
+      </div>
+</div><!--end content-->
+<div id="footer">
+<div class="main clearfix">
+<p>
+<a rel="nofollow" href="/about.htm" target="_blank">关于我们</a> - 
+<a rel="nofollow" href="/support.htm" target="_blank">广告合作</a> - 
+<a rel="nofollow" href="/linkus.htm" target="_blank">联系我们</a> -  
+<a rel="nofollow" href="/sm.htm" target="_blank">免责声明</a> -  
+<a rel="nofollow" href="/sitemap.htm" target="_blank">网站地图</a> - 
+<a rel="nofollow" href="tencent://message/?uin=461478385&Site=http://www.jb51.net" target="_blank">投诉建议</a> - 
+<a rel="nofollow" href="/up.htm" target="_blank">在线投稿</a>
+</p>
+<p><a rel="nofollow" class="ba" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32031102000137"><img src="https://www.beian.gov.cn/file/ghs.png"/> 苏公网安备 32031102000137号</a>&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn" class="ba" rel="nofollow" target="_blank">苏ICP备14036222号</a></p>
+<p>&copy;CopyRight 2006-2018 JB51.Net Inc All Rights Reserved. 脚本之家 版权所有</p>
+</div>
+</div><!--end footer-->
+<link type="text/css" rel="stylesheet" href="/jslib/syntaxhighlighter/styles/shCore.css" />
+<link type="text/css" rel="Stylesheet" href="/jslib/syntaxhighlighter/styles/shThemeDefault.css" />
+<script type="text/javascript" src="/jslib/syntaxhighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/jslib/syntaxhighlighter/scripts/shAutoloader.js"></script>
+<script type="text/javascript">
+(function(){
+	var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+/*更多导航*/
+$(".nav_top p").hover(function(){$(this).addClass("hover")},function(){$(this).removeClass("hover")});
+
+if (top.location != self.location)top.location=self.location;
+
+var varwindow=$(window);
+$(function(){
+	$('#content').find('img').each(function(){
+        var img = this;
+        if (img.width >= 650){
+            img.style.width = "650px";
+            img.style.height = "auto";
+            //$(img).removeAttr('height');
+            var aTag = document.createElement('a');
+            aTag.href = img.src;
+			aTag.target="_blank";
+            $(aTag).addClass('bPic')
+            .insertAfter(img).append(img)
+          }
+    });
+	varwindow.scroll(function()
+    {	
+    	//rFixedBox跟随滚动
+    	var h = varwindow.height();
+        var top = varwindow.scrollTop();
+    	var rFixedBox = $('.rFixedBox').prev().offset();
+        var fixedTop = rFixedBox.top;
+		
+        if(top>=fixedTop+344)
+        {
+			var h1 = parseInt($('#content').children('.main').height());
+			if(parseInt(top) + 340 < h1){
+				$('.rFixedBox').css({'position':'fixed','top': 0});
+			}else{
+				$('.rFixedBox').css({'position':'absolute','top': h1-510});
+			}
+        }
+        else
+        {
+            $('.rFixedBox').css({'position':'static', 'top':0});   
+        }	
+       /* return true;*/
+	   
+	   /*右侧快捷菜单*/
+	   sideFixed();
+    });
+	var ww = varwindow.width();
+	
+	function sideFixed(){
+	var scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
+	var a1 = 550;
+	if(ww>440){
+		if(a1<=scrolltop){
+			$('#right-share').slideDown();
+			}
+		else{
+			$('#right-share').slideUp();
+			}
+		}
+	}
+	$('.rshare-weixin').hover(function(){
+			$('#weixin-code').removeClass('hide');
+		},function(){
+			$('#weixin-code').addClass('hide');
+		});
+	/*二维码*/
+	$('#right-share .rshare-top').on('click',function(){
+        $('html,body').animate({'scrollTop':0},500);
+    });
+/*$(document).ready(function() {
+  $("#content img").unveil();
+});	*/
+
+if(suoyin=="ok"){
+	GenerateContentList();
+}
+
+SyntaxHighlighter.autoloader(
+	'applescript			/jslib/syntaxhighlighter/scripts/shBrushAppleScript.js',
+	'actionscript3 as3		/jslib/syntaxhighlighter/scripts/shBrushAS3.js',
+	'bash shell				/jslib/syntaxhighlighter/scripts/shBrushBash.js',
+	'coldfusion cf			/jslib/syntaxhighlighter/scripts/shBrushColdFusion.js',
+	'cpp c					/jslib/syntaxhighlighter/scripts/shBrushCpp.js',
+	'obj-c objc				/jslib/syntaxhighlighter/scripts/shBrushObjC.js',
+	'c# c-sharp csharp		/jslib/syntaxhighlighter/scripts/shBrushCSharp.js',
+	'css					/jslib/syntaxhighlighter/scripts/shBrushCss.js',
+	'delphi pascal			/jslib/syntaxhighlighter/scripts/shBrushDelphi.js',
+	'diff patch pas			/jslib/syntaxhighlighter/scripts/shBrushDiff.js',
+	'erl erlang				/jslib/syntaxhighlighter/scripts/shBrushErlang.js',
+	'groovy					/jslib/syntaxhighlighter/scripts/shBrushGroovy.js',
+	'haxe hx				/jslib/syntaxhighlighter/scripts/shBrushHaxe.js',
+	'java					/jslib/syntaxhighlighter/scripts/shBrushJava.js',
+	'jfx javafx				/jslib/syntaxhighlighter/scripts/shBrushJavaFX.js',
+	'js jscript javascript	/jslib/syntaxhighlighter/scripts/shBrushJScript.js',
+	'perl pl				/jslib/syntaxhighlighter/scripts/shBrushPerl.js',
+	'php					/jslib/syntaxhighlighter/scripts/shBrushPhp.js',
+	'text plain				/jslib/syntaxhighlighter/scripts/shBrushPlain.js',
+	'py python				/jslib/syntaxhighlighter/scripts/shBrushPython.js',
+	'ruby rails ror rb		/jslib/syntaxhighlighter/scripts/shBrushRuby.js',
+	'scala					/jslib/syntaxhighlighter/scripts/shBrushScala.js',
+	'sql					/jslib/syntaxhighlighter/scripts/shBrushSql.js',
+	'vb vbnet				/jslib/syntaxhighlighter/scripts/shBrushVb.js',
+	'ps powershell			/jslib/syntaxhighlighter/scripts/shBrushPowerShell.js',
+	'xml xhtml xslt html	/jslib/syntaxhighlighter/scripts/shBrushXml.js'
+);
+SyntaxHighlighter.all();
+});
+var ourl="";
+</script>
+<script type="text/javascript" src='//icws.jb51.net/good/arcts.js'></script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<div id="tongji">
+<script type="text/javascript" src="//icws.jb51.net/tongji/tongji.js"></script>
+</div>
+<script type="text/javascript">
+//tu+
+var cpro_id = "u1893014";
+document.write('<scri'+'pt src="//cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></s'+'cript>');
+(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?2f793ca9dd6f4c32488903eed5c7fbcb":"https://jspassport.ssl.qhimg.com/11.0.1.js?2f793ca9dd6f4c32488903eed5c7fbcb";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script> 
+<script type="text/javascript" src="//www.jb51.net/pl.asp?id=14352"></script>
+<script type="application/ld+json">
+        {
+            "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+            "@id": "https://www.jb51.net/article/14352.htm",
+            "appid": "1549322409310619",
+            "title": "批处理隐藏自身窗口，很无聊",
+            "description": "批处理隐藏运行效果代码,防止出现黑窗口不建议非法用途，可以用来执行命令，提供用户体验。",
+            "pubDate": "2008-05-05T23:17:16",
+			"upDate": "2008-05-05T23:17:16"
+        }
+</script>
+</body>
+</html>
+<!-- published at 2018/8/21 0:34:07By dxycms qq:461478385  -->
