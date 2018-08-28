@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/3.Agent3翻墙.cmd" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.Agent0翻墙.cmd" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/8.Firefly翻墙.cmd" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/说明·帮助/安全提醒！新！.rtf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12.setIPv6.bat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14.ipv6-goproxy.cmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.goproxyquic.cmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2.lantern.cmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2.refreshlantern.bat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3.Firefly.cmd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8.ShadowsocksR.cmd" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/bak/7.Agent1翻墙.cmd" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/docs/安全提醒！新！.rtf" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
