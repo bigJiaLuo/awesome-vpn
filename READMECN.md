@@ -1,9 +1,9 @@
 [中文](https://github.com/hugetiny/FreeVPN/blob/master/READMECN.md)
 
-# Fight for Free
+# 为自由而战
 ![We are born to be free](http://pureplaystation.com/wp-content/uploads/2016/10/A_O_T_-Wings-of-Freedom_20160926135537.jpg)
 
-## [Negibox](https://negibox.com) is recommanded as a download tool
+## 推荐使用[Negibox](https://negibox.com)下载
 
 
 ### Windows代理
