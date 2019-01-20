@@ -1,6 +1,6 @@
 [中文](https://github.com/hugetiny/FreeVPN/blob/master/READMECN.md)
 
-# Fight for Free
+<h1 align="center">Fight for Free</h1>
 ![We are born to be free](http://pureplaystation.com/wp-content/uploads/2016/10/A_O_T_-Wings-of-Freedom_20160926135537.jpg)
 
 ## [Negibox](https://negibox.com) is recommanded as a download tool
@@ -57,7 +57,7 @@ Android 4.0.3+
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
 
 Free Browser
-[FreeBrowser](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
+[Github](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
 
 Xndroid
 [Github](https://github.com/XndroidDev/Xndroid/releases/download/1.2.6/app-release.apk)

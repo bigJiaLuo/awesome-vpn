@@ -1,592 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcce1f7a-4739-4933-ac76-eacb840357f6" name="Default Changelist" comment="d">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.psiphon.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.goproxy.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.closeipv6.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.setIPv6.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14.ipv6-goproxy.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.ipv6-goagnt.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.goproxyquic.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.lantern.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.refreshlantern.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.Firefly.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.v2ray.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.GoGo.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.ShadowsocksR.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.PAC.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefly/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefly/downFirefly.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefly/firefly.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefly/firefly.pac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefly/prestart.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lantern/.lantern.exe.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lantern/Lantern.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lantern/lantern.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lantern/setting.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/ShadowsocksR.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/chn_ip.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/gui-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/gui-config.json_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/ShadowsocksR-dotnet4.0.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/ShadowsocksR.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/libsscrypto.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/mgwz.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/privoxy.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/temp/shadowsocks_2018-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/blocked" beforeDir="false" afterPath="$PROJECT_DIR$/READMECN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-404" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-bad-param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-disabled" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-file-read-only" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-modified" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-error-parse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/cgi-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/connect-failed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/connection-timeout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-add-url-form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-for-url-filter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-list-button" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-list-section" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-list-url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-remove-url-form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/edit-actions-url-form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/forwarding-failed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/mod-local-help" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/mod-support-and-service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/mod-title" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/mod-unstable-warning" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/no-server-data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/no-such-domain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/show-request" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/show-status" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/show-status-file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/show-url-info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/show-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/toggle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/toggle-mini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/untrusted" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/templates/url-info-osd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/transfer_log.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowsocksR/user.rule" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/7.Agent1翻墙.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Crashpad/metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Crashpad/settings.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/CrashpadMetrics-active.pma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Bookmarks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Bookmarks.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/data_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/data_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/data_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000004" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000006" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000007" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000008" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000009" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00000a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00000b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00000e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00000f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000010" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000011" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000012" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000013" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000014" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000015" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000016" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000017" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000018" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00001f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000020" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000021" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000022" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000023" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000024" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000025" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000026" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000027" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000028" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000029" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00002f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000030" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000031" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000032" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000033" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000034" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000035" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000036" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000037" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000038" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00003f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000040" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000041" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000044" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000045" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000046" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000047" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000048" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000049" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00004b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00004c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00004d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00004e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00004f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000051" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000052" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000053" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000054" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000055" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000056" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000057" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000058" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000059" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00005f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000060" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000061" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000062" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000064" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000065" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000066" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000067" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000068" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000069" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_00006f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000070" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000071" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000072" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000073" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000074" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000075" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000076" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/f_000077" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cache/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cookies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Cookies-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Current Session" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Current Tabs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Download Service/EntryDB/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Download Service/EntryDB/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Download Service/EntryDB/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Download Service/EntryDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/DownloadMetadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Extension State/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Favicons" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Favicons-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/AvailabilityDB/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Feature Engagement Tracker/EventDB/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/GPUCache/data_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/GPUCache/data_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/GPUCache/data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/GPUCache/data_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/GPUCache/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/History" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/History Provider Cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/History-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Last Session" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Last Tabs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Local Storage/leveldb/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Login Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Login Data-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Network Action Predictor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Network Action Predictor-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Network Persistent State" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Preferences" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Secure Preferences" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Session Storage/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Session Storage/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Session Storage/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Session Storage/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Session Storage/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Shortcuts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Shortcuts-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache/data_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache/data_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache/data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache/data_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Storage/ext/gfdkimpbcpahaombhbimeihdjnejgicl/def/GPUCache/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Sync Data/LevelDB/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Thumbnails/MANIFEST-000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Top Sites" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Top Sites-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/TransportSecurity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Visited Links" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Web Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/Web Data-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/data_reduction_proxy_leveldb/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/data_reduction_proxy_leveldb/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/data_reduction_proxy_leveldb/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/data_reduction_proxy_leveldb/LOG.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/in_progress_download_metadata_store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/previews_opt_out.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Default/previews_opt_out.db-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/FileTypePolicies/21/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/FileTypePolicies/21/download_file_types.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/FileTypePolicies/21/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/FileTypePolicies/21/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/First Run" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Local State" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/PepperFlash/30.0.0.154/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/PepperFlash/30.0.0.154/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/PepperFlash/30.0.0.154/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/PepperFlash/30.0.0.154/pepflashplayer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/SSLErrorAssistant/4/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/SSLErrorAssistant/4/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/SSLErrorAssistant/4/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/SSLErrorAssistant/4/ssl_error_assistant.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing Cookies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing Cookies-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/CertCsdDownloadWhitelist.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/ChromeExtMalware.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/ChromeUrlClientIncident.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/IpMalware.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlCsdDownloadWhitelist.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlCsdWhitelist.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlMalBin.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlMalware.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlSoceng.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlSubresourceFilter.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlSuspiciousSite.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Safe Browsing/UrlUws.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/ShaderCache/GPUCache/data_0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/ShaderCache/GPUCache/data_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/ShaderCache/GPUCache/data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/ShaderCache/GPUCache/data_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/ShaderCache/GPUCache/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Indexed Rules/20/7.54/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Indexed Rules/20/7.54/Ruleset Data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Unindexed Rules/7.54/Filtering Rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Unindexed Rules/7.54/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Unindexed Rules/7.54/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Unindexed Rules/7.54/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/Subresource Filter/Unindexed Rules/7.54/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/chrome_shutdown_ms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_metadata/verified_contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_pnacl_json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_crtbegin_for_eh_o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_crtbegin_o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_crtend_o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_ld_nexe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_libcrt_platform_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_libgcc_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_libpnacl_irt_shim_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_libpnacl_irt_shim_dummy_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_pnacl_llc_nexe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/_platform_specific/x86_64/pnacl_public_x86_64_pnacl_sz_nexe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/manifest.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome-user-data/pnacl/0.57.44.2492/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.pac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gogo/config/gogo.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gogo/gogo.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gogo/start.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/17monipdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/GoProxy.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/GoProxy.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/addto-startup.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/agent.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/auth.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/autoproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/autorange.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.analytics.yahoo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.bannedbook.org.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.facebook.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.g.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.google-analytics.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.google.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.googleapis.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.googlesyndication.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.googletagmanager.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.googletagservices.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.googleusercontent.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.s3.amazonaws.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.truste.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.xx.fbcdn.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.youtube.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/cache/ecc/.ytimg.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/direct.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/gae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/gae.user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/gae.user.json_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/get-latest-goproxy.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/gfwlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/goproxy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/httpproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/ip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/php.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/rewrite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxy/stripssl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/17monipdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/GoProxy.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/GoProxy.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/addto-startup.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/agent.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/auth.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/autoproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/autorange.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.bannedbook.org.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.cloudflare.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.ds.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.facebook.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.facebook.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.fls.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.g.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.google-analytics.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.google.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.googleapis.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.googlesyndication.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.googletagmanager.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.googletagservices.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.googleusercontent.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.s3.amazonaws.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.sharethis.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.twimg.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.twitter.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.v4.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.wp.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.xx.fbcdn.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.yahoo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.ybp.yahoo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.youtube.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/.ytimg.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/99cn.info.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/facebook.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/fbcdn.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/fbsbx.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/ml314.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/cache/ecc/twitter.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/direct.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/gae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/gae.user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/gae.user.json_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/get-latest-goproxy.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/gfwlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/goproxy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/httpproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/ip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/php.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/rewrite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goproxyquic/stripssl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/CA.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/G.ip.txt_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/GeoIP.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/GoGo_[googlevideo].exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/Microsoft.VC90.CRT.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/addto-startup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/addto-startup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/agent.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.bannedbook.org.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.cloudflare.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.ds.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.facebook.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.facebook.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.g.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.ggpht.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.google-analytics.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.google.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googleapis.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googlesyndication.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googletagmanager.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googletagservices.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googleusercontent.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.googlevideo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.s3.amazonaws.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.soundofhope.org.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.twimg.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.twitter.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.v4.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.xx.fbcdn.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.ybp.yahoo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.youtube.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/.ytimg.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/99cn.info.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/botanwang.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/coding.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/ml314.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/certs/twitter.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/checkip.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/checkip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/dnsproxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/goagent-gtk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/goagent-osx.command" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/goagnt-uv.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/goagnt.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/ip_Update/Gip.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/msvcr90.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/ntlmaps.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/packages.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.pac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.user.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxy.user.ini_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/proxylib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/python27.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/python27.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/python27.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/up.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goagnt/强退GoGo进程.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/17monipdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/GoProxy.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/GoProxy.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/addto-startup.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/agent.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/auth.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/autoproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/autorange.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.bannedbook.org.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.facebook.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.facebook.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.g.doubleclick.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.githubusercontent.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.google-analytics.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.google.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.google.com.hk.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.googleapis.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.googlesyndication.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.googletagmanager.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.googletagservices.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.mxpnl.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.stbcast.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.thetrafficstat.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.unicast.metric.gstatic.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.xx.fbcdn.net.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.ybp.yahoo.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/cache/ecc/.youtube.com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/direct.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/gae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/gae.user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/gae.user.json_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/get-latest-goproxy.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/gfwlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/goproxy.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/httpproxy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/ip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/php.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/rewrite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipv6-goproxy/stripssl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ping.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psiphon/psiphon3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psiphon/psiphon3.exe.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psiphon/setting.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/config.json_backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/geoip.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/geosite.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/ip_Update/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/ip_Update/ip_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/ip_Update/ip_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/v2ctl.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/v2ctl.exe.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/v2ray.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/v2ray.exe.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/wv2ray.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v2ray/wv2ray.exe.sig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/waiting.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wget.exe" beforeDir="false" />
-    </list>
+    <list default="true" id="fcce1f7a-4739-4933-ac76-eacb840357f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -598,24 +13,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-332">
-                <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/READMECN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="362">
-                <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -634,15 +49,15 @@
       <find>chrome-user-data</find>
       <find>Lantern</find>
       <find>^Psiphon</find>
-      <find>^Firefly</find>
       <find>firefly</find>
+      <find>^Firefly</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;https;//free&quot;</replace>
       <replace>蓝灯</replace>
       <replace>赛风</replace>
-      <replace>萤火虫</replace>
       <replace>Firefly</replace>
+      <replace>萤火虫</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -671,15 +86,15 @@
         <option value="$PROJECT_DIR$/3.Firefly.cmd" />
         <option value="$PROJECT_DIR$/2.refreshlantern.bat" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/READMECN.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1786" />
-    <option name="height" value="1015" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -743,15 +158,31 @@
       <workItem from="1535341807623" duration="709000" />
       <workItem from="1535358217400" duration="792000" />
       <workItem from="1535428078762" duration="9634000" />
-      <workItem from="1547680861488" duration="4245000" />
+      <workItem from="1547680861488" duration="4920000" />
     </task>
+    <task id="LOCAL-00001" summary="listed">
+      <created>1547686342321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547686342321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix translation">
+      <created>1547686413745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547686413745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18964000" />
+    <option name="totallyTimeSpent" value="19639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1786" height="1015" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13257791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -778,7 +209,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="internationalization" />
-    <option name="LAST_COMMIT_MESSAGE" value="internationalization" />
+    <MESSAGE value="listed" />
+    <MESSAGE value="fix translation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix translation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/ChromeGo更新地址.url" />
@@ -907,21 +340,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/READMECN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-332">
-            <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/READMECN.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="362">
-            <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
