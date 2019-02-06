@@ -9,7 +9,7 @@
 
 ### Windows Proxy
 Psiphon
-[Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
+[Psiphon3](https://www.psiphon3.com/psiphon3.exe)
 [Email](get@psiphon3.com)
 
 Lantern
@@ -49,7 +49,7 @@ Android 4.1+
 [Google Play](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 
 Psiphon
-[Psiphon3 website](https://www.psiphon3.com/PsiphonAndroid.apk)
+[Psiphon3](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
 Firefly
