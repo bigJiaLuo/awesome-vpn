@@ -10,7 +10,7 @@
 ### Windows Proxy
 Psiphon
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
-[Email](get@psiphon3.com)
+<a href="mailto:get@psiphon3.com">Email</a>
 
 Lantern
 Windows XP SP3+
