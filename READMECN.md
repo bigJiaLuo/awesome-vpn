@@ -9,7 +9,7 @@
 
 ### Windows代理
 赛风
-[Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
+[Psiphon3](https://www.psiphon3.com/psiphon3.exe)
 <a href="mailto:get@psiphon3.com">Email</a>
 
 蓝灯
@@ -44,7 +44,7 @@ Tor浏览器
 
 ### 安卓代理
 赛风
-[Psiphon3 website](https://www.psiphon3.com/PsiphonAndroid.apk)
+[Psiphon3](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
 蓝灯
