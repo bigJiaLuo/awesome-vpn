@@ -10,7 +10,7 @@
 ### Windows代理
 赛风
 [Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
-[Email](get@psiphon3.com)
+<a href="mailto:get@psiphon3.com">Email</a>
 
 蓝灯
 Windows XP SP3+
