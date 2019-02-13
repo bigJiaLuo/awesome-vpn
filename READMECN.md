@@ -4,7 +4,7 @@
 
 ![We are born to be free](http://pureplaystation.com/wp-content/uploads/2016/10/A_O_T_-Wings-of-Freedom_20160926135537.jpg)
 
-## 推荐使用[Negibox](https://negibox.com)下载
+## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://negibox.com)下载
 
 
 ### Windows代理
