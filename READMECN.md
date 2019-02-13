@@ -10,7 +10,6 @@
 ### Windows代理
 赛风
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
-<a href="mailto:get@psiphon3.com">Email</a>
 
 蓝灯
 Windows XP SP3+
@@ -59,7 +58,7 @@ Android 4.0.3+
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
 
 自由浏览器
-[FreeBrowser](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
+[Github](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
 
 Xndroid
 [Github](https://github.com/XndroidDev/Xndroid/releases/download/1.2.6/app-release.apk)
