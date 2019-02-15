@@ -1,4 +1,4 @@
-[中文](https://github.com/hugetiny/FreeVPN/blob/master/READMECN.md)
+[English](https://github.com/hugetiny/FreeVPN/blob/master/README.md)
 
 <h1 align="center">为自由而战</h1>
 
