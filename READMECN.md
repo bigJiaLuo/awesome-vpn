@@ -1,16 +1,15 @@
-[中文](https://github.com/hugetiny/FreeVPN/blob/master/READMECN.md)
+[English](https://github.com/hugetiny/FreeVPN/blob/master/README.md)
 
 <h1 align="center">为自由而战</h1>
 
 ![We are born to be free](http://pureplaystation.com/wp-content/uploads/2016/10/A_O_T_-Wings-of-Freedom_20160926135537.jpg)
 
-## 推荐使用[Negibox](https://negibox.com)下载
+## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://negibox.com)下载
 
 
 ### Windows代理
 赛风
-[Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
-[Email](get@psiphon3.com)
+[Psiphon3](https://www.psiphon3.com/psiphon3.exe)
 
 蓝灯(无限免费试用)
 Windows XP SP3+
@@ -44,7 +43,7 @@ Tor浏览器
 
 ### 安卓代理
 赛风
-[Psiphon3 website](https://www.psiphon3.com/PsiphonAndroid.apk)
+[Psiphon3](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
 蓝灯(无限免费试用)
@@ -59,7 +58,7 @@ Android 4.0.3+
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
 
 自由浏览器
-[FreeBrowser](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
+[Github](https://github.com/greatfire/x/raw/master/FreeBrowser.apk)
 
 Xndroid
 [Github](https://github.com/XndroidDev/Xndroid/releases/download/1.2.6/app-release.apk)

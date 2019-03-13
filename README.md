@@ -9,8 +9,7 @@
 
 ### Windows Proxy
 Psiphon
-[Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
-[Email](get@psiphon3.com)
+[Psiphon3](https://www.psiphon3.com/psiphon3.exe)
 
 lantern(unlimited free trial)
 Windows XP SP3+
@@ -49,7 +48,7 @@ Android 4.1+
 [Google Play](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 
 Psiphon
-[Psiphon3 website](https://www.psiphon3.com/PsiphonAndroid.apk)
+[Psiphon3](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
 Firefly(unlimited free trial)
