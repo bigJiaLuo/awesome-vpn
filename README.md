@@ -12,12 +12,12 @@ Psiphon
 [Psiphon3 website](https://www.psiphon3.com/psiphon3.exe)
 [Email](get@psiphon3.com)
 
-Lantern
+lantern(unlimited free trial)
 Windows XP SP3+
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.exe)
 
-Firefly
+Firefly(unlimited free trial)
 [Github installer](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.exe)
 [Github portable](https://raw.githubusercontent.com/cdtmirrors/yhc/master/greenyhc.exe)
 
@@ -31,18 +31,18 @@ Tor browser
 
 
 ### MacOS Proxy
-Lantern
+lantern(unlimited free trial)
 10.7+
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.dmg)
 
-Firefly
+Firefly(unlimited free trial)
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.dmg)
 [Github](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 
 
 ### Android Proxy
-Lantern
+lantern(unlimited free trial)
 Android 4.1+
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.apk)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.apk)
@@ -52,7 +52,7 @@ Psiphon
 [Psiphon3 website](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
-Firefly
+Firefly(unlimited free trial)
 Android 4.0.3+
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.apk)
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
@@ -69,19 +69,19 @@ Psiphon
 Psiphon browser
 [US App Store](https://itunes.apple.com/us/app/psiphon-browser/id1193362444?ls=1&mt=8)
 
-Firefly
+Firefly(unlimited free trial)
 [CN App Store](https://itunes.apple.com/cn/app/%E5%B0%BC%E9%A9%AC%E4%BB%A3%E7%90%86/id1260125306?mt=8)
 [US App Store](https://itunes.apple.com/us/app/mudhorse-proxy/id1260125306)
 
 
 ### Ubuntu/Debian Proxy
-lantern
+lantern(unlimited free trial)
 32bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-32-bit.deb)
 64bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb)
 
-Firefly
+Firefly(unlimited free trial)
 64bit
 [Github installer](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true)
 [Github portable](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64?raw=true)
