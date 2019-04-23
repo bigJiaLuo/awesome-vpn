@@ -36,7 +36,7 @@ Shadowsocks(需要服务器)
 [Github](https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.6/Shadowsocks-4.1.6.zip)
 
 v2rayN & v2rayN-core(需要服务器)
-[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN-Core.zip)
+[Github v2rayN-core](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN-Core.zip),[Github v2rayN](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN.zip)
 
 ### MacOS代理
 蓝灯(无限免费试用)
