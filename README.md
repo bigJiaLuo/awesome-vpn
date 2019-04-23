@@ -2,7 +2,7 @@
 
 <h1 align="center">Fight for Free</h1>
 
-![We are born to be free](http://pureplaystation.com/wp-content/uploads/2016/10/A_O_T_-Wings-of-Freedom_20160926135537.jpg)
+![We are born to be free](./fightforfree.jpeg)
 
 ## [Negibox](https://negibox.com) is recommanded as a download tool
 
