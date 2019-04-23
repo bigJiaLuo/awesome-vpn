@@ -6,6 +6,9 @@
 
 ## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://negibox.com)下载
 
+### 无污染的DNS
+1.1.1.1
+9.9.9.9
 
 ### Windows代理
 赛风
@@ -29,6 +32,11 @@ Firefox浏览器含VPN
 Tor浏览器
 [Choopa Japan](http://45.32.39.221/TorBrowserPortable.7z)
 
+Shadowsocks(需要服务器)
+[Github](https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.6/Shadowsocks-4.1.6.zip)
+
+v2rayN & v2rayN-core(需要服务器)
+[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN-Core.zip)
 
 ### MacOS代理
 蓝灯(无限免费试用)
@@ -40,6 +48,12 @@ Tor浏览器
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.dmg)
 [Github](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 
+Shadowsocks(需要服务器)
+[Github](https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v1.8.2/ShadowsocksX-NG.app.1.8.2.zip)
+
+v2rayX(需要服务器)
+[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN-Core.zip)
+[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN.zip)
 
 ### 安卓代理
 赛风
@@ -63,6 +77,12 @@ Android 4.0.3+
 Xndroid
 [Github](https://github.com/XndroidDev/Xndroid/releases/download/1.2.6/app-release.apk)
 
+Shadowsocks(需要服务器)
+[Github](https://github.com/shadowsocks/shadowsocks-android/releases/download/v4.7.4/shadowsocks--universal-4.7.4.apk)
+
+v2rayNG(需要服务器)
+[Github](https://github.com/2dust/v2rayNG/releases/download/0.6.19.4/app-universal-release.apk)
+
 ### iOS代理
 赛风
 [US App Store](https://itunes.apple.com/us/app/psiphon/id1276263909?ls=1&mt=8)
@@ -74,7 +94,7 @@ Xndroid
 [US App Store](https://itunes.apple.com/us/app/mudhorse-proxy/id1260125306)
 
 
-### Ubuntu/Debian代理
+### Linux/Ubuntu/Debian代理
 蓝灯(无限免费试用)
 32bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-32-bit.deb)
@@ -85,6 +105,16 @@ Xndroid
 64bit
 [Github installer](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true)
 [Github portable](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64?raw=true)
+
+Shadowsocks(需要服务器)
+[Github](https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v3.0.1/Shadowsocks-Qt5-3.0.1-x86_64.AppImage)
+
+## Shadowsocks & V2ray 免费账号分享
+[WebSiteUseful](https://github.com/loremwalker/WebSiteUseful/blob/master/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/SS%26%26SSR%26v2ray%E5%88%86%E4%BA%AB.md)
+[freess](https://github.com/max2max/freess)
+
+
+
 
 
 

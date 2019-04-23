@@ -7,6 +7,10 @@
 ## [Negibox](https://negibox.com) is recommanded as a download tool
 
 
+### Clean DNS
+1.1.1.1
+9.9.9.9
+
 ### Windows Proxy
 Psiphon
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
@@ -28,6 +32,12 @@ Firefox browser with VPN
 Tor browser
 [Choopa Japan](http://45.32.39.221/TorBrowserPortable.7z)
 
+Shadowsocks(Server Required)
+[Github](https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.6/Shadowsocks-4.1.6.zip)
+
+v2rayN & v2rayN-core(Server Required)
+[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN-Core.zip)
+[Github](https://github.com/2dust/v2rayN/releases/download/2.27/v2rayN.zip)
 
 ### MacOS Proxy
 lantern(unlimited free trial)
@@ -39,6 +49,11 @@ Firefly(unlimited free trial)
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.dmg)
 [Github](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 
+Shadowsocks(Server Required)
+[Github](https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v1.8.2/ShadowsocksX-NG.app.1.8.2.zip)
+
+v2rayX(Server Required)
+[Github](https://github.com/Cenmrev/V2RayX/releases/download/v1.5.1/V2RayX.app.zip)
 
 ### Android Proxy
 lantern(unlimited free trial)
@@ -62,6 +77,12 @@ Free Browser
 Xndroid
 [Github](https://github.com/XndroidDev/Xndroid/releases/download/1.2.6/app-release.apk)
 
+Shadowsocks(Server Required)
+[Github](https://github.com/shadowsocks/shadowsocks-android/releases/download/v4.7.4/shadowsocks--universal-4.7.4.apk)
+
+v2rayNG(Server Required)
+[Github](https://github.com/2dust/v2rayNG/releases/download/0.6.19.4/app-universal-release.apk)
+
 ### iOS Proxy
 Psiphon
 [US App Store](https://itunes.apple.com/us/app/psiphon/id1276263909?ls=1&mt=8)
@@ -73,7 +94,7 @@ Firefly(unlimited free trial)
 [US App Store](https://itunes.apple.com/us/app/mudhorse-proxy/id1260125306)
 
 
-### Ubuntu/Debian Proxy
+### Linux/Ubuntu/Debian Proxy
 lantern(unlimited free trial)
 32bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-32-bit.deb)
@@ -85,8 +106,13 @@ Firefly(unlimited free trial)
 [Github installer](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true)
 [Github portable](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64?raw=true)
 
+Shadowsocks(Server Required)
+[Github](https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v3.0.1/Shadowsocks-Qt5-3.0.1-x86_64.AppImage)
 
 
+## Free Shadowsocks & V2ray server
+[WebSiteUseful](https://github.com/loremwalker/WebSiteUseful/blob/master/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/SS%26%26SSR%26v2ray%E5%88%86%E4%BA%AB.md)
+[Freess](https://github.com/max2max/freess)
 
 
 
