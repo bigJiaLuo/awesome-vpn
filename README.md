@@ -19,7 +19,7 @@ Windows XP SP3+
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.exe)
 
-Firefly(unlimited free trial)
+Firefly(free trial)
 [Github installer](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.exe)
 [Github portable](https://raw.githubusercontent.com/cdtmirrors/yhc/master/greenyhc.exe)
 
@@ -43,7 +43,7 @@ lantern(unlimited free trial)
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.dmg)
 
-Firefly(unlimited free trial)
+Firefly(free trial)
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.dmg)
 [Github](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 
@@ -99,7 +99,7 @@ lantern(unlimited free trial)
 64bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb)
 
-Firefly(unlimited free trial)
+Firefly(free trial)
 64bit
 [Github installer](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true)
 [Github portable](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64?raw=true)
