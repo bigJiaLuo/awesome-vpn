@@ -18,7 +18,7 @@ Windows XP SP3+
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.exe)
 
-萤火虫(无限免费试用)
+萤火虫(有限免费试用)
 [Github installer](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.exe)
 [Github portable](https://raw.githubusercontent.com/cdtmirrors/yhc/master/greenyhc.exe)
 
@@ -43,7 +43,7 @@ v2rayN & v2rayN-core(需要服务器)
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.dmg)
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.dmg)
 
-萤火虫(无限免费试用)
+萤火虫(有限免费试用)
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.dmg)
 [Github](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 
@@ -65,7 +65,7 @@ Android 4.1+
 [Amazon S3](https://s3.amazonaws.com/lantern/lantern-installer.apk)
 [Google Play](https://play.google.com/store/apps/details?id=org.getlantern.lantern)
 
-萤火虫(无限免费试用)
+萤火虫(有限免费试用)
 Android 4.0.3+
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.apk)
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
@@ -88,7 +88,7 @@ v2rayNG(需要服务器)
 赛风浏览器
 [US App Store](https://itunes.apple.com/us/app/psiphon-browser/id1193362444?ls=1&mt=8)
 
-萤火虫(无限免费试用)
+萤火虫(有限免费试用)
 [CN App Store](https://itunes.apple.com/cn/app/%E5%B0%BC%E9%A9%AC%E4%BB%A3%E7%90%86/id1260125306?mt=8)
 [US App Store](https://itunes.apple.com/us/app/mudhorse-proxy/id1260125306)
 
@@ -100,7 +100,7 @@ v2rayNG(需要服务器)
 64bit
 [Github](https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb)
 
-萤火虫(无限免费试用)
+萤火虫(有限免费试用)
 64bit
 [Github installer](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true)
 [Github portable](https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64?raw=true)
