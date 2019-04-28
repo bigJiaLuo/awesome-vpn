@@ -64,7 +64,7 @@ Psiphon
 [Psiphon3](https://www.psiphon3.com/PsiphonAndroid.apk)
 [Google Play](https://play.google.com/store/apps/developer?id=Psiphon+Inc.)
 
-Firefly(unlimited free trial)
+Firefly(free trial)
 Android 4.0.3+
 [Github](https://raw.githubusercontent.com/cdtmirrors/yhc/master/yhc.apk)
 [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
