@@ -1,7 +1,6 @@
 [English](https://github.com/hugetiny/FreeVPN/blob/master/README.md)
 
-<h1 align="center">为自由而战</h1>
-<h1 align="center">香港加油！</h1>
+<h1 align="center">为自由而战，香港加油！</h1>
 
 ![We are born to be free](./fightforfree.jpeg)
 
