@@ -9,6 +9,9 @@
 ### 无污染的DNS
 1.1.1.1,9.9.9.9
 
+### 推荐最稳定的代理(接力+ipv6)
+[XX-Net](https://github.com/XX-net/XX-Net)
+
 ### Windows代理
 赛风
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
