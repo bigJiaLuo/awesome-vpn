@@ -9,7 +9,7 @@
 ### 无污染的DNS
 1.1.1.1,9.9.9.9
 
-### 推荐最稳定的代理(接力+ipv6)
+### 推荐最稳定的免费开源代理(ipv6有小部分GFW没有封，)
 [XX-Net](https://github.com/XX-net/XX-Net)
 
 ### Windows代理
