@@ -7,9 +7,6 @@
 ## [Negibox](https://negibox.com) is recommanded as a download tool
 
 
-### Clean DNS
-1.1.1.1,9.9.9.9
-
 ### Windows Proxy
 Psiphon
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
