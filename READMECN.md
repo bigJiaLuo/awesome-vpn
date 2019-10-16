@@ -6,14 +6,6 @@
 
 ## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://negibox.com)下载
 
-### 无污染的DNS
-1.1.1.1,9.9.9.9
-
-### 推荐最稳定的免费开源代理
-GFW基于黑名单机制，ipv4代理只有小部分新代理没有封，一旦使用人数上升被发现，迟早也要封。
-ipv6目前GFW封锁能力未知，XX-Net可以支持未支持原生ipv6地区自动搜寻Teredo服务器并使用ipv6
-[XX-Net](https://github.com/XX-net/XX-Net)
-
 ### Windows代理
 赛风
 [Psiphon3](https://www.psiphon3.com/psiphon3.exe)
