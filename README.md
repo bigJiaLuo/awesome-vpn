@@ -106,8 +106,8 @@ Shadowsocks(Server Required)
 
 
 ## Free Shadowsocks & V2ray server
-[WebSiteUseful](https://github.com/loremwalker/WebSiteUseful/blob/master/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/SS%26%26SSR%26v2ray%E5%88%86%E4%BA%AB.md),
-[Freess](https://github.com/max2max/freess)
+[ssrshare](https://www.ssrshare.com),
+[freess](https://github.com/max2max/freess)
 
 
 
