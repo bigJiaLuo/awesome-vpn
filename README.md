@@ -1,6 +1,6 @@
 [中文](https://github.com/hugetiny/FreeVPN/blob/master/READMECN.md)
 
-<h1 align="center">Fight for Free</h1>
+<h1 align="center">Protect yourself</h1>
 
 ![We are born to be free](./fightforfree.jpeg)
 
