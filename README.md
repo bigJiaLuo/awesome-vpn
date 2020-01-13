@@ -4,7 +4,7 @@
 
 ![We are born to be free](./fightforfree.jpeg)
 
-## [Negibox](https://negibox.com) is recommanded as a download tool
+## [Negibox](https://github.com/hugetiny/negibox) is recommanded as a download tool
 
 
 ### Windows Proxy
