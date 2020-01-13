@@ -4,7 +4,7 @@
 
 ![We are born to be free](./fightforfree.jpeg)
 
-## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://negibox.com)下载
+## 部分可以下载但是下载速度奇慢的推荐用迅雷或者[Negibox](https://github.com/hugetiny/negibox)下载
 
 ### Windows代理
 赛风
